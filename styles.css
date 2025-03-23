@@ -1,0 +1,37 @@
+body {
+    background-color: #ffccff; /* Light pink */
+    color: #4b0082; /* Purple text */
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    color: #800080; /* Darker purple */
+    text-align: center;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff66b2, #cc66ff);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.animated-text {
+    animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.5; }
+    to { opacity: 1; }
+}

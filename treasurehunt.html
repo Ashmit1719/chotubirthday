@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="js/treasurehunt.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="memorylane.html">Memory Lane</a></li>
+                <li><a href="treasurehunt.html">Treasure Hunt</a></li>
+                <li><a href="popquiz.html">Pop Quiz</a></li>
+                <li><a href="surprisevideo.html">Surprise</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="treasure-container">
+        <h1 class="animated-text">Treasure Hunt 🔍</h1>
+        <p>Follow the clues for something special indeed, you'll find the first clue in something you read...</p>
+        <div class="hidden-item book" onclick="revealNote()">📖</div>
+        <div id="note" class="hidden-text">Find the object that rings and reminds us of school! 🔔</div>
+        <div class="hidden-item bell" onclick="nextClue()">🔔</div>
+    </main>
+</body>
+</html>
